@@ -1,0 +1,46 @@
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Pedido de Pizza</title> 
+<style> 
+    body { 
+        font-family: Arial, sans-serif; 
+        text-align: center; 
+    } 
+</style> 
+</head> 
+<body> 
+<h1>Escolha seus sabores de pizza e refrigerantes</h1> 
+<div> 
+    <label for="sabor1">1º sabor de pizza:</label> 
+    <br> 
+    <input type="text" id="sabor1" placeholder="Digite o 1º sabor"> 
+</div> 
+<div> 
+    <label for="sabor2">2º sabor de pizza:</label> 
+    <br> 
+    <input type="text" id="sabor2" placeholder="Digite o 2º sabor"> 
+</div> 
+<div> 
+    <label for="sabor3">3º sabor de pizza:</label> 
+    <br> 
+    <input type="text" id="sabor3" placeholder="Digite o 3º sabor"> 
+</div> 
+<div> 
+    <label for="sabor4">4º sabor de pizza:</label> 
+    <br> 
+    <input type="text" id="sabor4" placeholder="Digite o 4º sabor"> 
+</div> 
+<div> 
+    <label for="refrigerantes">Quantos refrigerantes você quer?</label> 
+    <br> 
+    <input type="number" id="refrigerantes" min="0"> 
+</div> 
+<button onclick="calcularPedido()">Calcular Pedido</button> 
+<div id="resultado">,</div> 
+
+
+</body>
+<script src="ex4.js"></script> 
+</html>  
